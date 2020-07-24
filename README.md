@@ -36,11 +36,15 @@ Commit at the end of each iteration (if not more frequently) for good habits!
 - An assets directory is provided in the repo, and colors are provided in the CSS file
 - Do _not_ spend time making this page responsive
 
+I worked on Iteration 0, but I decided I would like to test my understanding of JavaScript here, as I believe that with time, I would be able to exactly duplicate the comp. I think the area I would struggle most with is the hover, as I have not actually done that yet. I am slow at CSS still, but I don't feel too concerned about that at my level of experience with using it.
+
 **Iteration 1:** Add Random Message Functionality
 
 - When a user types in a question then clicks the "Get your answer" button, the use sees their question and a random answer from the list of possible answers (a list of the possible random answers is provided below)
 - The input field the user typed the question into should clear as soon as they click the "Get your answer" button
 - When the question and answer appear, the image of the 8 ball disappears
+
+I finished the first two parts of Iteration 1. I did not make it to the image of the 8 ball disappearing. Although I didn't make it to this one, I am feeling confident about my ability to use JavaScript effectively. I forgot the script in my HTML, which lost me a lot of time (and my confidence took a pretty rough hit!). I bet I won't make that mistake very often in the future! I believe if I had figured that out faster, I might have possibly completed iteration 1. As it is, I enjoyed testing my knowledge and skills this far through Mod1.
 
 **Iteration 2:** Clear Functionality, error checking
 
@@ -70,8 +74,8 @@ Commit at the end of each iteration (if not more frequently) for good habits!
 - Reply hazy, try again.
 - Ask again later.
 - Better not tell you now.
-- Cannot predict now. 
-- Concentrate and ask again. 
+- Cannot predict now.
+- Concentrate and ask again.
 - Don't count on it.
 - My reply is no.
 - My sources say no.
@@ -83,5 +87,3 @@ Commit at the end of each iteration (if not more frequently) for good habits!
 <img width="973" alt="Zero state" src="https://user-images.githubusercontent.com/25447342/62751672-c8f99e00-ba21-11e9-9029-7855eb7524fa.png">
 
 <img width="1109" alt="After a user has requested an answer" src="https://user-images.githubusercontent.com/25447342/62751671-c8f99e00-ba21-11e9-90e5-4dc648ae2d6a.png">
-
-
