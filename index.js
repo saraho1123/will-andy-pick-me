@@ -36,13 +36,16 @@ function randomizeEightBall() {
 }
 
 function copyUserQuestion() {
-  // console.log("hello");
-  // for (var i = 0; i < questionInput.length; i++) {
   question.innerText = questionInput.value;
-  // }
+}
+
+function clearInput() {
+  console.log("clear");
+  questionInput.value = "";
 }
 
 function getAnswer() {
   randomAnswer.innerText = randomizeEightBall();
   copyUserQuestion();
+  clearInput();
 }
