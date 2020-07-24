@@ -62,3 +62,11 @@ section {
   display: flex;
   align-self: flex-end;
 }
+
+.answer {
+  
+}
+
+.hidden {
+  display: none;
+}

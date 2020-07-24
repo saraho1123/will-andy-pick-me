@@ -12,17 +12,18 @@
     </header>
 
     <section>
-      
+
       <section class="main">
-        <div class="form">
-          <input class="question-input" placeholder="Ask your question here!" type="button" name="button"></input>
-          <button class"answer-button" type="button" name="button">Get your answer</button>
-        </div>
+        <form class="form" action="index.html" method="post">
+          <input class="question-input" type="text" name="question" placeholder="Ask your question here!">
+          <button class="answer-button" type="button" name="button">Get your answer</button>
+        </form>
+
         <div class="answer-area">
           <img class="eight-ball" src="./assets/eight-ball.png" alt="">
-          <div hidden class="hidden answer">
-            <h3>input question</h3>
-            <h2>random answer</h2>
+          <div class="answer">
+            <h3 class="question">input question?</h3>
+            <h2 class="random-answer">Answer</h2>
           </div>
           <footer>
             <button class="clear-button" type="button" name="button">Clear</button>
@@ -34,4 +35,8 @@
 
     </section>
   </body>
+
+  <script src="./index.js" type="text/javascript">
+
+  </script>
 </html>
